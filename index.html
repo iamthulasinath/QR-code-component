@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel= "stylesheet" type="text/css" href="style.css">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: "Outfit";
+	}
+
+
+	.card-container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		background-color: hsl(212, 45%, 89%)
+	}
+
+	.card{
+		text-align: center;
+		background-color: hsl(0, 0%, 100%);
+		padding: 10px;
+		border-radius: 18px;
+		box-shadow: 0 2px 10px rgba(0,0,0, 0,.35); 
+		width: 250px;
+	}
+
+	.qr-img{
+		width: 230px;
+		height: 230px;
+		border-radius: 10px;
+	}
+
+	.card h1{
+		font-size: 20px;
+		font-weight: 700;
+		color: hsl(218, 44%, 22%);
+		margin-bottom: 8px;
+	}
+
+	.card p{
+		font-size: 15px;
+		font-weight: 400;
+		color: hsl(220, 15%, 55%);
+	}
+  </style>
+</head>
+<body>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Thulasinath</a>.
+  </div>
+  <div class="card-container">
+        <div class="card">
+            <img src="/home/iamthulasinath/Downloads/Frontend Mentor Challenge 1/images/image-qr-code.png" class="qr-img" />
+            <h1>Imporve your front-end skills by building projects</h1>
+            <p>Scan the QR code to visit the Fontend Mentor and take your codeing skills to the next level</p>
+        </div>
+    </div>
+</body>
+</html>
